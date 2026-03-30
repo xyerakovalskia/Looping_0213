@@ -11,3 +11,15 @@ int main() {
     for(int i=0; i<3; i++){
         cout<< "Teknologi Informasi UMY"<<endl;
     }
+    cout<<endl;
+    //untuk mendapatkan urutan angka acak yg berbeda
+    srand(time(0));
+
+    //Perulangan dengan WHILE
+    cout<< "PERULANGAN WHILE"<<endl;
+    x = rand()%10;
+
+    while(x<=5){
+        cout<<"Bilangan acak = "<<x <<endl;
+        x = rand()%10;
+    }
